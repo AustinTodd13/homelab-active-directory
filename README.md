@@ -12,5 +12,8 @@ The lab builds an OU structure with users and groups, then uses Group Policy Obj
 - Troubleshoot common issues and document fixes used during the build
 
 ## 🗺️ **Lab Topology**
+
+![Lab Topology](images/topology.png)
+
 ## 🚙 **Milestones**
 ## 📍 **Map**

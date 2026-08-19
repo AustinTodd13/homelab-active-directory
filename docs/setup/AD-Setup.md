@@ -38,3 +38,22 @@
 - Click **Finish**
 - Login to make sure the created password works
 <img src="../../images/06.png" alt="AD setup" width="450" />
+
+
+
+### **3) Network and AD Setup**
+
+- Go to search bar and type **Network** and click **Network Status**
+- Click **Change Adapter Options** and right click Ethernet and click **Properties**
+<img src="../../images/07.png" alt="AD setup" width="450" />
+
+- Select **Internet Protocol Version 4** and click **Properties**
+- Setup a Static IP address and DNS IP to localhost 127.0.0.1
+- Click **OK**
+<img src="../../images/08.png" alt="AD setup" width="450" />
+
+- Go to **Server Manager** and click **Local Server**
+- Click **Computer Name**
+- Select **Change** and input your new Server Name
+- Restart Server
+<img src="../../images/09.png" alt="AD setup" width="450" />

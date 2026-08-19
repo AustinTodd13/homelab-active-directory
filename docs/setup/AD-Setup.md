@@ -41,7 +41,7 @@
 
 
 
-### **3) Network and AD Setup**
+### **3) Network Setup**
 
 - Go to search bar and type **Network** and click **Network Status**
 - Click **Change Adapter Options** and right click Ethernet and click **Properties**
@@ -57,3 +57,36 @@
 - Select **Change** and input your new Server Name
 - Restart Server
 <img src="../../images/09.png" alt="AD setup" width="450" />
+
+
+
+### **4) Active Directory Setup**
+
+- Go to **Server Manager** and go to **Manage** and click **Add Roles and Features**
+<img src="../../images/10.png" alt="AD setup" width="450" />
+
+- Click **Next**
+<img src="../../images/11.png" alt="AD setup" width="450" />
+
+- Select **Active Directory Domain Services**
+- Click **Next**
+<img src="../../images/12.png" alt="AD setup" width="450" />
+
+- When you get to Confirmation, click **Install**
+<img src="../../images/13.png" alt="AD setup" width="450" />
+
+- After Install, Select **Flag with '!'**
+- Click **Promote this Server to Domain Controller**
+<img src="../../images/14.png" alt="AD setup" width="450" />
+
+- Select **Add New Forest**
+- Create a name for **Root Domain Names**
+<img src="../../images/15.png" alt="AD setup" width="450" />
+
+- Click **Next**
+- Create and Confirm **Password**
+<img src="../../images/16.png" alt="AD setup" width="450" />
+
+- Click **Next** until **Install Button Appears** and click **Install**
+- Restart Server after Install is Completed
+<img src="../../images/17.png" alt="AD setup" width="450" />
